@@ -11,10 +11,10 @@ const Home = () => {
         <DarkModeToggle />
       </Flex>
       <Flex align="center" justify="center" height="85vh" direction="column">
-        <FormControl mt="20px" w="50vw">
+        <FormControl mt="20px" w={["80vw", "70vw", "50vw", "30vw"]}>
           <Input placeholder="E-Mail Address" size="lg" />
         </FormControl>
-        <FormControl mt="20px" w={"50vw"}>
+        <FormControl mt="20px" w={["80vw", "70vw", "50vw", "30vw"]}>
           <Input placeholder="Password" size="lg" type="password" />
         </FormControl>
         <Button
